@@ -1,0 +1,244 @@
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    transform: translate;
+    color: #121212;
+    font-size: 100PX;
+}
+.bottom{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate;
+    color: rgb(18, 16, 16);
+    font-size: 100PX;
+  }
+  .bottom-top{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate;
+    color: rgb(16, 15, 15);
+    font-size: 100PX;
+  }
+  
+  
+  .container h2{
+    text-align: center;
+    padding: 6px;
+  }
+  #carouselExampleInterval{
+    margin: 8PX;
+    box-shadow: 0 0 20px black;
+  }
+  /* body {
+    background-color: #f8f9fa;
+} */
+/* Testimonial Carousel */
+#carouselTestimonials {
+  margin-top: 30px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+.carousel-control-next-icon{
+  display:none;
+}
+.testimonial-text {
+  font-size: 20px;
+  font-style: italic;
+}
+.carousel-item img {
+    opacity: 0.7;
+
+  /* filter: blur(8px);  */
+  /* Adjust the blur radius as needed */
+  
+}
+
+.testimonial-author {
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* .container mt-5{
+  border-radius: 8px;
+} */
+.jumbotron{
+  padding: 6px;
+  margin-top: 30px;
+}
+
+footer{
+  background-color: rgb(109, 109, 104);
+  padding: 100px;
+}
+
+.copyright{
+  color: #eee;
+  text-align: center;
+  font-size: 20px;
+}
+p.testimonial-text{
+  text-align: center;
+}
+.social-media{
+  color: #fff;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 30px;
+}
+
+.social-media .fa-brands .fa-facebook:hover{
+   color: blue;
+}
+
+
+/* about.html css */
+/* Custom CSS for About Us page */
+
+/* Style section titles */
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style text paragraphs */
+.text-muted {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Style images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add more custom styles as needed */
+.col-lg-6{
+  padding: 0px;
+}
+.col-lg-6 img{
+  padding: 26px;
+  height: 582px;
+
+}
+.menu{
+  margin-left: 53px;
+
+}
+.menu img{
+  height: 356px;
+    padding: 11px;
+}
+p{
+  display: flex;
+}
+.col-lg-6 h3{
+  margin-left: 151px;
+}
+.col-lg-6 p{
+  margin-left: 151px;
+  color: rgb(136, 33, 33);
+
+}
+.direction{
+  font-size: 35px;
+  padding: 23px;
+}
+.direction img{
+  text-align: center;
+}
+
+.carousel slide .testimonial-text {
+  text-align: center;
+ 
+}
+
+.text-center{
+  text-align: center;
+}
+ /* explore page css */
+ .menu img {
+  border-radius: 15px; /* Add border radius */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+.menu img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+}
+
+/* Custom CSS for FAQ page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.card-header button {
+  width: 100%;
+  text-align: left;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card-header button:hover {
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  border-top: 1px
+}
+ /* Your custom styles for FAQ page */
+ .faq-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-list li {
+  margin-bottom: 20px;
+}
+
+.faq-list li .question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .faq-list li .answer {
+  display: none;
+} */
+
+.faq-list li.active .answer {
+  display: block;
+}
+
+.social-media i {
+  font-size: 24px; /* Adjust the size of the icons as needed */
+  margin: 0 10px; /* Adjust the spacing between icons */
+  transition: color 0.3s ease; /* Smooth transition effect */
+  cursor:pointer;
+}
+
+.social-media i:hover {
+  color: #0e0e0f; /* Change color on hover */
+}
